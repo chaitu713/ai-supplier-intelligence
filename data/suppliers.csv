@@ -1,0 +1,221 @@
+supplier_id,supplier_name,country,category,onboarding_date,certification
+1,"Zavala, Smith and Jordan",India,Raw Material,2022-09-07,ISO14001
+2,"Knapp, Smith and Peters",Germany,Raw Material,2024-08-22,ISO14001
+3,"Sanchez, Mcbride and Lewis",China,Raw Material,2022-11-27,
+4,"Bright, Moore and Adkins",USA,Packaging,2023-08-16,ISO14001
+5,Munoz-Lopez,India,Raw Material,2026-01-02,
+6,"Hernandez, Buckley and Moore",China,Raw Material,2026-03-08,ISO9001
+7,"Munoz, Patton and Anderson",Germany,Packaging,2023-08-25,
+8,Marsh-Pugh,Germany,Raw Material,2025-10-06,ESG Certified
+9,Hess-Nelson,Vietnam,Chemicals,2023-05-05,ESG Certified
+10,"Alvarado, Figueroa and Shields",USA,Packaging,2023-11-22,
+11,Henderson Group,India,Raw Material,2025-09-02,ESG Certified
+12,Fox Inc,USA,Raw Material,2024-05-10,ESG Certified
+13,Schmidt and Sons,Vietnam,Electronics,2023-10-02,ISO9001
+14,Ramirez-Romero,Germany,Electronics,2022-08-31,
+15,Shields-Gonzalez,Vietnam,Electronics,2025-02-10,ESG Certified
+16,Thompson-Jones,China,Chemicals,2025-10-11,
+17,Sanchez Group,USA,Raw Material,2025-07-25,ISO9001
+18,Sanchez-Mcknight,India,Packaging,2023-05-08,ISO9001
+19,Dean PLC,India,Electronics,2022-09-26,ISO9001
+20,Smith Inc,China,Electronics,2023-03-20,
+21,"Mccann, Morris and Smith",India,Chemicals,2025-07-22,ESG Certified
+22,"Robinson, Donovan and Thompson",USA,Chemicals,2024-11-26,ISO9001
+23,Lloyd LLC,Germany,Electronics,2024-09-19,ISO9001
+24,Harris-Smith,China,Chemicals,2023-02-26,ISO9001
+25,Lynch-Patrick,Germany,Packaging,2022-12-23,ESG Certified
+26,Brewer-Maynard,Germany,Chemicals,2022-10-07,ESG Certified
+27,Butler LLC,Vietnam,Packaging,2023-12-10,ISO14001
+28,Phillips-Baker,Germany,Chemicals,2021-12-02,
+29,Ramos LLC,Germany,Raw Material,2021-06-19,ESG Certified
+30,Savage-Hopkins,USA,Raw Material,2023-03-16,ESG Certified
+31,"Long, Harris and Vance",Vietnam,Raw Material,2023-10-12,ISO14001
+32,Thompson-Gray,USA,Raw Material,2024-03-23,ISO14001
+33,Flores and Sons,India,Electronics,2025-08-14,ISO14001
+34,Torres-Wilson,Vietnam,Raw Material,2025-07-27,ISO14001
+35,"Tucker, Walker and Hernandez",Vietnam,Raw Material,2021-03-22,
+36,"Hopkins, Richardson and Jackson",China,Electronics,2021-06-04,ESG Certified
+37,Trevino Inc,India,Packaging,2025-01-29,ESG Certified
+38,Pittman-Williams,India,Raw Material,2025-08-23,ESG Certified
+39,"Boyd, Murray and Oconnell",India,Electronics,2023-04-16,
+40,"Morris, West and Brown",Vietnam,Packaging,2022-12-09,ISO9001
+41,Kline Ltd,China,Raw Material,2022-04-04,
+42,"Stone, Wood and Flores",Germany,Chemicals,2026-02-23,ISO14001
+43,Martinez PLC,India,Raw Material,2023-04-09,ESG Certified
+44,"Fuentes, Williams and Doyle",Vietnam,Electronics,2023-09-14,ESG Certified
+45,"Kaufman, Rose and Thomas",Vietnam,Raw Material,2021-03-20,ISO9001
+46,"Mcbride, Stark and Jones",China,Electronics,2026-01-30,ISO14001
+47,Wong Ltd,Vietnam,Chemicals,2025-03-25,ESG Certified
+48,"Bernard, Ramsey and Smith",Germany,Raw Material,2025-10-30,ESG Certified
+49,Jimenez-Marsh,India,Raw Material,2025-09-05,ISO9001
+50,"White, Martin and Warren",Germany,Packaging,2021-07-14,
+51,Dickerson Ltd,India,Electronics,2022-03-26,ESG Certified
+52,Barnes LLC,USA,Raw Material,2023-09-15,ESG Certified
+53,Moore Inc,USA,Packaging,2025-11-18,ISO9001
+54,"Maxwell, Morrison and Quinn",China,Raw Material,2026-02-20,ISO14001
+55,Garcia Ltd,Germany,Chemicals,2025-11-25,ISO9001
+56,"Stevens, Wilson and Barnes",Vietnam,Raw Material,2024-05-10,
+57,"Wood, Mason and Sims",India,Raw Material,2023-05-03,
+58,Johnson Inc,China,Raw Material,2025-09-23,ISO14001
+59,"Brooks, Pena and Navarro",China,Chemicals,2023-05-30,ISO9001
+60,Whitehead-Finley,USA,Raw Material,2021-04-23,ISO9001
+61,Ray-Underwood,Vietnam,Raw Material,2024-07-15,ESG Certified
+62,Acosta-Lee,China,Electronics,2025-06-10,ISO9001
+63,"Miller, Hamilton and Duncan",Vietnam,Raw Material,2022-05-02,ESG Certified
+64,"Richardson, Blanchard and Blake",USA,Packaging,2022-04-07,ISO9001
+65,Wallace-Good,Germany,Packaging,2025-04-18,ISO14001
+66,Harrell-Fleming,India,Electronics,2023-12-18,ISO14001
+67,"Jones, Wilson and Arias",India,Chemicals,2021-11-19,ISO14001
+68,Levy-Cooley,Vietnam,Chemicals,2021-04-08,ISO9001
+69,Adams Group,China,Raw Material,2024-11-08,ESG Certified
+70,"Martin, Rios and Summers",USA,Raw Material,2024-01-23,ISO9001
+71,Vance-Berry,India,Electronics,2021-07-09,ESG Certified
+72,Sparks-Horne,Germany,Chemicals,2024-11-23,ISO9001
+73,Burgess Group,USA,Raw Material,2024-11-30,ISO14001
+74,Holloway Group,India,Chemicals,2024-10-14,ISO9001
+75,Clay LLC,Vietnam,Packaging,2025-11-05,
+76,Gonzalez Inc,USA,Chemicals,2024-12-30,ISO9001
+77,Allen-Wood,China,Electronics,2021-08-06,
+78,Butler Group,China,Electronics,2023-05-11,ESG Certified
+79,Allen PLC,China,Electronics,2024-07-29,ISO9001
+80,"Franklin, Clark and Jordan",Vietnam,Raw Material,2023-02-19,
+81,Shepard-Cook,Vietnam,Chemicals,2022-03-25,ISO14001
+82,Schmidt LLC,USA,Chemicals,2023-12-22,
+83,"Bailey, Wilson and Reed",Vietnam,Chemicals,2022-01-29,
+84,Brown-Avila,China,Packaging,2024-03-28,ESG Certified
+85,Rodriguez PLC,China,Electronics,2023-05-08,ISO9001
+86,Davis-Miller,China,Packaging,2023-08-18,ISO9001
+87,Price-Howard,USA,Packaging,2024-07-11,ISO14001
+88,Brown-Sullivan,India,Raw Material,2021-09-02,
+89,Evans Ltd,Germany,Packaging,2021-04-28,ISO9001
+90,Lynn-Smith,India,Packaging,2024-04-04,
+91,Wells Inc,Vietnam,Raw Material,2023-05-06,ISO14001
+92,Curtis Group,Vietnam,Chemicals,2022-03-30,ISO9001
+93,Olsen Group,Vietnam,Chemicals,2021-11-14,ISO14001
+94,"Harris, Payne and Briggs",China,Packaging,2022-05-12,ISO9001
+95,Marquez-Carroll,Vietnam,Packaging,2021-11-23,ISO14001
+96,Rollins and Sons,Vietnam,Packaging,2024-03-23,ISO14001
+97,Scott LLC,India,Raw Material,2025-10-23,ISO14001
+98,Barnett LLC,China,Chemicals,2025-07-12,ISO9001
+99,"Torres, Schwartz and Martin",USA,Packaging,2024-06-13,ISO9001
+100,"Meyer, Frazier and Nichols",Germany,Electronics,2024-11-29,ESG Certified
+101,"Shaffer, Myers and Wagner",Germany,Electronics,2025-10-06,ISO9001
+102,Hughes-Martinez,USA,Packaging,2025-04-04,
+103,"Anderson, Mann and Lin",India,Raw Material,2023-07-09,ESG Certified
+104,"Ali, Montgomery and Perry",China,Raw Material,2022-05-10,ISO9001
+105,Cline PLC,Vietnam,Electronics,2022-12-15,ISO14001
+106,Hernandez PLC,China,Packaging,2022-12-06,
+107,Davis Inc,Vietnam,Raw Material,2023-08-05,ESG Certified
+108,"Cohen, Ford and Garza",Germany,Electronics,2024-10-18,
+109,Green-Thompson,India,Raw Material,2024-10-11,
+110,"Gonzales, Boone and Brown",Vietnam,Electronics,2022-05-07,ISO9001
+111,"Taylor, Lopez and Mendez",China,Chemicals,2021-05-27,ISO9001
+112,Campbell and Sons,Germany,Packaging,2024-03-30,ISO14001
+113,Bowman and Sons,China,Chemicals,2021-06-28,ESG Certified
+114,Smith-Norton,Vietnam,Chemicals,2022-11-21,ISO14001
+115,"Butler, Marks and Smith",Vietnam,Raw Material,2022-08-22,ESG Certified
+116,Mcbride Inc,Germany,Raw Material,2021-09-12,ISO9001
+117,Boyd Inc,Germany,Electronics,2026-01-03,ISO14001
+118,Thomas Inc,India,Raw Material,2021-04-01,ISO9001
+119,Walker Inc,China,Chemicals,2022-04-15,ESG Certified
+120,"Mcintosh, Castro and Petersen",USA,Electronics,2024-07-13,
+121,"Lewis, Williams and Miller",India,Chemicals,2023-01-05,
+122,Klein Inc,Germany,Raw Material,2023-04-18,
+123,Marquez-Parker,India,Packaging,2025-02-08,ISO9001
+124,Curry LLC,India,Chemicals,2021-10-18,
+125,"Greer, Hawkins and Walton",Vietnam,Chemicals,2022-05-06,ISO9001
+126,Jones LLC,China,Raw Material,2025-05-17,ISO14001
+127,Kim-Cook,India,Chemicals,2021-12-20,
+128,Cunningham Group,Vietnam,Raw Material,2025-08-31,ISO14001
+129,Mcdonald Ltd,Germany,Chemicals,2023-07-28,
+130,Webb and Sons,USA,Electronics,2022-09-15,ESG Certified
+131,"Townsend, Martin and Moses",China,Raw Material,2023-05-11,ISO14001
+132,"White, Miller and Mckay",Vietnam,Electronics,2025-07-17,ESG Certified
+133,"Reed, Conner and Cook",Vietnam,Electronics,2021-05-01,ISO9001
+134,Morales Ltd,USA,Packaging,2022-08-07,ESG Certified
+135,"Whitaker, Nguyen and Rogers",Germany,Electronics,2023-09-06,ESG Certified
+136,"Miller, Brown and Mcclure",Vietnam,Packaging,2023-02-25,ISO9001
+137,"Kent, Lopez and Lee",Germany,Chemicals,2025-04-18,
+138,Hill-Conway,USA,Raw Material,2025-05-01,
+139,"Morrow, Frazier and Parker",Germany,Chemicals,2026-03-01,ISO9001
+140,Phillips-Guzman,India,Chemicals,2025-05-13,ISO14001
+141,Willis-Smith,Germany,Chemicals,2022-05-02,
+142,Hill PLC,Vietnam,Raw Material,2022-10-04,
+143,Taylor Ltd,China,Chemicals,2025-10-04,ISO9001
+144,Nelson PLC,Vietnam,Electronics,2023-03-12,
+145,Barton-Hicks,Vietnam,Packaging,2021-11-11,ISO14001
+146,Bowers-Melton,Germany,Raw Material,2022-01-10,ISO14001
+147,Mccann Ltd,Vietnam,Packaging,2025-11-15,ESG Certified
+148,"Alvarez, Stephens and Kelley",China,Chemicals,2023-10-29,ESG Certified
+149,"Dunlap, Lee and Blevins",China,Chemicals,2022-11-19,ISO14001
+150,Jones-Johnson,Vietnam,Packaging,2023-04-03,
+151,Hobbs PLC,USA,Raw Material,2022-07-28,ESG Certified
+152,"Owens, Myers and Lambert",India,Chemicals,2024-09-24,ISO14001
+153,"Warren, Williams and Parrish",Vietnam,Raw Material,2025-04-15,
+154,Garcia-Baker,USA,Electronics,2024-12-04,
+155,"Gross, Walsh and Khan",India,Electronics,2023-09-27,ESG Certified
+156,"Blackburn, Whitehead and Sutton",China,Packaging,2023-06-11,ESG Certified
+157,Warner Inc,Germany,Chemicals,2024-04-06,ESG Certified
+158,Nelson-Cuevas,China,Raw Material,2024-09-06,ISO14001
+159,Hudson-Page,China,Packaging,2025-06-06,ISO14001
+160,"Mitchell, Rodriguez and Schmitt",Vietnam,Packaging,2024-07-12,ISO9001
+161,Garrison-Bennett,Germany,Raw Material,2023-01-19,ISO14001
+162,"Barnett, Bradley and Webb",Vietnam,Chemicals,2025-08-10,ESG Certified
+163,Robinson LLC,China,Chemicals,2025-07-28,ESG Certified
+164,Bennett-Fowler,Germany,Chemicals,2024-05-23,ESG Certified
+165,Walker-Mcgrath,USA,Packaging,2023-02-09,ESG Certified
+166,Fisher-Vasquez,USA,Chemicals,2022-12-12,ESG Certified
+167,Lyons PLC,China,Packaging,2021-04-15,ISO9001
+168,"Schwartz, Mejia and Richardson",Vietnam,Chemicals,2021-11-13,ISO14001
+169,"Lawson, Leblanc and Maynard",China,Raw Material,2025-12-05,
+170,Williams-Thompson,USA,Electronics,2023-09-02,ISO14001
+171,"Lyons, Diaz and Baker",China,Raw Material,2025-02-18,
+172,Brown-Carroll,China,Chemicals,2022-02-04,ISO14001
+173,"Anderson, Robinson and Gillespie",Vietnam,Packaging,2022-09-05,
+174,"Lambert, Morrow and Martin",India,Raw Material,2022-02-14,ESG Certified
+175,"Dawson, Cooper and Smith",Germany,Chemicals,2023-01-30,
+176,Smith-Santos,USA,Packaging,2025-12-16,ESG Certified
+177,White-Rich,India,Electronics,2023-12-06,ISO9001
+178,"Owen, Cobb and Young",China,Chemicals,2024-12-09,ISO9001
+179,Dickerson Group,India,Raw Material,2021-09-21,ISO9001
+180,Cooper Ltd,Germany,Packaging,2023-12-20,ISO14001
+181,"Lewis, Robinson and Martinez",Vietnam,Packaging,2023-01-13,ISO9001
+182,James Inc,Vietnam,Electronics,2021-06-29,ISO14001
+183,"Schneider, Miller and Thompson",Vietnam,Electronics,2025-02-18,ISO9001
+184,Baldwin PLC,Vietnam,Chemicals,2024-06-14,
+185,Serrano and Sons,Vietnam,Chemicals,2021-08-13,ISO14001
+186,Madden-Howard,India,Packaging,2024-06-21,ISO14001
+187,Gonzalez-Dominguez,Vietnam,Raw Material,2023-07-16,ISO9001
+188,Holmes-Hall,Vietnam,Chemicals,2022-04-09,ISO14001
+189,"Mitchell, Roy and Moore",China,Packaging,2023-01-17,ISO14001
+190,Harris-Bennett,USA,Packaging,2023-05-10,ISO14001
+191,"Harris, Jackson and Black",Germany,Raw Material,2022-04-13,ESG Certified
+192,"Friedman, Mcbride and Welch",Germany,Electronics,2022-09-29,ISO9001
+193,"Barnett, Santiago and Williams",USA,Raw Material,2026-01-13,
+194,"Hill, James and Hutchinson",Germany,Raw Material,2025-10-10,ISO9001
+195,"Cunningham, Gonzalez and Mills",Vietnam,Raw Material,2022-02-19,
+196,"Roberts, Woods and Morgan",India,Electronics,2022-08-06,ISO14001
+197,Dyer Group,China,Chemicals,2022-05-22,
+198,Hill LLC,India,Chemicals,2025-05-01,
+199,"Mills, Shaw and Gamble",Germany,Electronics,2021-05-22,ISO9001
+200,"Mason, Holmes and Munoz",Vietnam,Raw Material,2026-01-29,
+201,Nova Industrial Components,India,Electronics,,ISO9001
+202,Baltic Raw Materials Ltd,Germany,Raw Material,,ISO14001
+203,Pacific Industrial Supply,USA,Chemicals,,ESG Certified
+204,Shenzhen Precision Metals,China,Raw Material,,ISO9001
+205,Alpine Packaging Solutions,Switzerland,Packaging,,ESG Certified
+206,Orion Electrical Components,Vietnam,Electronics,,ISO14001
+207,Delta Industrial Plastics,USA,Packaging,,ISO9001
+208,Nordic Chemical Industries,Sweden,Chemicals,,ESG Certified
+209,Titan Mechanical Systems,Germany,Raw Material,,ISO9001
+210,Quantum Industrial Parts,India,Electronics,,ISO14001
+211,Atlas Industrial Fasteners,USA,Mechanical,,ISO9001
+212,GreenField Raw Resources,Canada,Raw Material,,ISO14001
+213,Eastern Tech Components,South Korea,Electronics,,ISO9001
+214,Metro Chemical Processing,Singapore,Chemicals,,ESG Certified
+215,BluePeak Packaging Ltd,UK,Packaging,,ISO14001
+216,Arctic Metal Works,Norway,Raw Material,,ISO9001
+217,Sunrise Electrical Systems,India,Electronics,,ISO14001
+218,Global Polymer Industries,USA,Chemicals,,ESG Certified
+219,EuroSteel Mechanical Group,Germany,Raw Material,,ISO9001
+220,Pacific Eco Packaging,Australia,Packaging,,ESG Certified

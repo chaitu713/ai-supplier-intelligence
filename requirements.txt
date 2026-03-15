@@ -1,0 +1,15 @@
+streamlit
+pandas
+numpy
+scikit-learn
+requests
+openai
+fastapi
+uvicorn
+azure-storage-blob
+azure-ai-formrecognizer
+python-dotenv
+plotly
+matplotlib
+azure-identity
+azure-core
