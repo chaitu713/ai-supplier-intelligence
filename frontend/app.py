@@ -23,14 +23,19 @@ st.set_page_config(page_title="AI Supplier Intelligence", layout="wide")
 # HEADER
 ############################################################
 
-st.title("🧠 AI Supplier Intelligence Platform")
+# st.title("TCS Envirozoneᴬᴵ 4.0")
 
 st.markdown(
 """
-AI-Driven Supplier Risk Monitoring & ESG Analytics
+# TCS Envirozone<sup>AI</sup> 4.0
+
+## Responsible Sourcing & Supplier Intelligence
+
+### AI-Driven Supplier Risk Monitoring & ESG Analytics  
 
 Upload supplier documents, extract operational and ESG data using AI, and monitor supplier performance through intelligent analytics.
-"""
+""",
+unsafe_allow_html=True
 )
 
 ############################################################
