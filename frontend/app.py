@@ -14,10 +14,10 @@ from backend.blob_storage import upload_file_to_blob
 from backend.document_intelligence import extract_document
 from backend.data_append import process_extracted_document
 from backend.document_history import log_document
-from backend.ai_agent import handle_question
+from backend.ai_agent import ask_supplier_ai
 
 
-st.set_page_config(page_title="AI Supplier Intelligence", layout="wide")
+st.set_page_config(page_title="Responsible Sourcing & Supplier Intelligence", layout="wide")
 
 ############################################################
 # HEADER
@@ -266,26 +266,30 @@ elif page == "⚠ Risk Monitoring":
 # AI INSIGHTS COPILOT
 ############################################################
 
+############################################################
+# AI INSIGHTS COPILOT
+############################################################
+
 elif page == "🤖 AI Insights":
 
     st.subheader("Supplier Intelligence Copilot")
 
-    st.markdown(
-        """
-Suggested Questions
+    st.markdown("""
+Ask questions about suppliers.
 
-• Which suppliers are risky?  
-• Why this supplier is risky?  
-• Recommend alternate suppliers
-"""
-    )
+Examples:
+
+- Which suppliers are risky?
+- Why is Nova Industrial risky?
+- Recommend alternate suppliers
+""")
 
     if "messages" not in st.session_state:
         st.session_state.messages = []
 
-    for msg in st.session_state.messages:
-        with st.chat_message(msg["role"]):
-            st.write(msg["content"])
+    for message in st.session_state.messages:
+        with st.chat_message(message["role"]):
+            st.write(message["content"])
 
     question = st.chat_input("Ask about suppliers...")
 
@@ -295,21 +299,22 @@ Suggested Questions
             {"role": "user", "content": question}
         )
 
-        explanation, table = handle_question(
-            question,
-            performance,
-            suppliers
-        )
+        with st.chat_message("user"):
+            st.write(question)
+
+        with st.spinner("AI analyzing supplier data..."):
+
+            response = ask_supplier_ai(
+                question,
+                performance
+            )
 
         st.session_state.messages.append(
-            {"role": "assistant", "content": explanation}
+            {"role": "assistant", "content": response}
         )
 
         with st.chat_message("assistant"):
-            st.write(explanation)
-
-            if table is not None:
-                st.dataframe(table, use_container_width=True)
+            st.write(response)
 
 ############################################################
 # FOOTER

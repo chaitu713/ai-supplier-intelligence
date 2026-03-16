@@ -1,80 +1,65 @@
+from google import genai
+import os
+from dotenv import load_dotenv
 import pandas as pd
 
-############################################################
+# Load environment variables
+load_dotenv()
 
-# MAIN AI AGENT FUNCTION
+API_KEY = os.getenv("GEMINI_API_KEY")
 
-############################################################
+# Initialize Gemini client
+client = genai.Client(api_key=API_KEY)
 
-def handle_question(question, performance_df, suppliers_df):
 
-    question = question.lower()
+def ask_supplier_ai(question, performance_df):
+    """
+    Sends supplier performance data + user question to Gemini
+    and returns AI-generated insights.
+    """
 
-    ########################################################
-    # QUESTION 1
-    ########################################################
+    try:
 
-    if "risky" in question and "which" in question:
-
-        risky_suppliers = performance_df.sort_values(
+        # Sort suppliers by risk to prioritize important data
+        context_data = performance_df.sort_values(
             "risk_score", ascending=False
-        ).head(5)
+        )[[
+            "supplier_name",
+            "country",
+            "category",
+            "avg_delay",
+            "avg_defect",
+            "avg_cost_variance",
+            "risk_score"
+        ]].head(50)
 
-        explanation = (
-            "Based on supplier operational performance metrics such as "
-            "delivery delays, defect rates, and cost variance, the following "
-            "suppliers show elevated operational risk."
-        )
+        # Convert dataframe to text
+        data_text = context_data.to_string(index=False)
 
-        return explanation, risky_suppliers
+        # Prompt for Gemini
+        prompt = f"""
+You are an AI procurement assistant.
 
-    ########################################################
-    # QUESTION 2
-    ########################################################
+Supplier dataset:
+{data_text}
 
-    if "why" in question:
+User Question:
+{question}
 
-        supplier = performance_df.sort_values(
-            "risk_score", ascending=False
-        ).iloc[0]
-
-        explanation = f"""
-Supplier **{supplier['supplier_name']}** shows elevated risk due to the following factors:
-
-• Average delivery delay: **{round(supplier['avg_delay'], 2)} days**
-• Product defect rate: **{round(supplier['avg_defect'] * 100, 2)}%**
-• Cost variance: **{round(supplier['avg_cost_variance'], 2)}%**
-
-These factors indicate potential supply chain reliability issues and may impact production planning.
+Instructions:
+- Answer ONLY the user question.
+- Maximum 4 bullet points.
+- Maximum 5 suppliers if listing.
+- Be concise and direct.
 """
 
-        return explanation, None
-
-    ########################################################
-    # QUESTION 3
-    ########################################################
-
-    if "recommend" in question:
-
-        recommendations = performance_df.sort_values(
-            "risk_score"
-        ).head(5)
-
-        explanation = (
-            "Based on supplier performance analytics, the following "
-            "suppliers are recommended alternatives with lower operational risk."
+        # Call Gemini
+        response = client.models.generate_content(
+            model="gemini-3-flash-preview",
+            contents=prompt
         )
 
-        return explanation, recommendations
+        return response.text
 
-    ########################################################
-    # DEFAULT RESPONSE
-    ########################################################
-
-    return (
-        "Try asking one of the following questions:\n"
-        "• Which suppliers are risky?\n"
-        "• Why this supplier is risky?\n"
-        "• Recommend alternate suppliers",
-        None
-    )
+    except Exception as e:
+        return f"Error generating AI response: {str(e)}"

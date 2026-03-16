@@ -13,3 +13,4 @@ plotly
 matplotlib
 azure-identity
 azure-core
+google-generativeai
